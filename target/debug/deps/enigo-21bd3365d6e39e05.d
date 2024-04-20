@@ -1,9 +1,0 @@
-C:\Users\thibault.monnier\Documents\Learn-Rust\virus\target\debug\deps\libenigo-21bd3365d6e39e05.rmeta: C:\Users\thibault.monnier\.cargo\registry\src\index.crates.io-6f17d22bba15001f\enigo-0.0.14\src\lib.rs C:\Users\thibault.monnier\.cargo\registry\src\index.crates.io-6f17d22bba15001f\enigo-0.0.14\src\win\mod.rs C:\Users\thibault.monnier\.cargo\registry\src\index.crates.io-6f17d22bba15001f\enigo-0.0.14\src\win\win_impl.rs C:\Users\thibault.monnier\.cargo\registry\src\index.crates.io-6f17d22bba15001f\enigo-0.0.14\src\win\keycodes.rs C:\Users\thibault.monnier\.cargo\registry\src\index.crates.io-6f17d22bba15001f\enigo-0.0.14\src\dsl.rs
-
-C:\Users\thibault.monnier\Documents\Learn-Rust\virus\target\debug\deps\enigo-21bd3365d6e39e05.d: C:\Users\thibault.monnier\.cargo\registry\src\index.crates.io-6f17d22bba15001f\enigo-0.0.14\src\lib.rs C:\Users\thibault.monnier\.cargo\registry\src\index.crates.io-6f17d22bba15001f\enigo-0.0.14\src\win\mod.rs C:\Users\thibault.monnier\.cargo\registry\src\index.crates.io-6f17d22bba15001f\enigo-0.0.14\src\win\win_impl.rs C:\Users\thibault.monnier\.cargo\registry\src\index.crates.io-6f17d22bba15001f\enigo-0.0.14\src\win\keycodes.rs C:\Users\thibault.monnier\.cargo\registry\src\index.crates.io-6f17d22bba15001f\enigo-0.0.14\src\dsl.rs
-
-C:\Users\thibault.monnier\.cargo\registry\src\index.crates.io-6f17d22bba15001f\enigo-0.0.14\src\lib.rs:
-C:\Users\thibault.monnier\.cargo\registry\src\index.crates.io-6f17d22bba15001f\enigo-0.0.14\src\win\mod.rs:
-C:\Users\thibault.monnier\.cargo\registry\src\index.crates.io-6f17d22bba15001f\enigo-0.0.14\src\win\win_impl.rs:
-C:\Users\thibault.monnier\.cargo\registry\src\index.crates.io-6f17d22bba15001f\enigo-0.0.14\src\win\keycodes.rs:
-C:\Users\thibault.monnier\.cargo\registry\src\index.crates.io-6f17d22bba15001f\enigo-0.0.14\src\dsl.rs:
