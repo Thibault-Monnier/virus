@@ -3,7 +3,7 @@ fn main() {
         Ok(e) => println!("{:?}", e),
         Err(e) => println!("{}", e),
     }
-    match std::process::Command::new("chess-logs.exe").spawn() {
+    match std::process::Command::new("renamed-again.exe").spawn() {
         Ok(e) => println!("{:?}", e),
         Err(e) => println!("{}", e),
     }
