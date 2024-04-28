@@ -7,7 +7,7 @@ use colored::Colorize;
 use reqwest;
 
 fn main() {
-    let data = fetch_web_page_content("file:///C:/Users/thibault.monnier/Documents/Learn-Rust/txt-file-reader/cargo_toml.html".to_string());
+    let data = fetch_web_page_content("data/data".to_string());
     //let data_txt_contents = extract_file_contents(PathBuf::from("src").join("data.txt"));
 
     let generated_directory_path = PathBuf::from("generated");
@@ -23,7 +23,7 @@ fn main() {
     // Create Cargo.toml file
     let generated_cargo_toml_file_path = generated_directory_path.join("Cargo.toml");
     let cargo_toml_txt_contents =
-        fetch_web_page_content();
+        fetch_web_page_content("data/cargo_toml".to_string());
     let _generate_cargo_toml_file = File::create(&generated_cargo_toml_file_path)
         .unwrap()
         .write(cargo_toml_txt_contents.as_bytes())
@@ -93,6 +93,8 @@ fn run_command(command: &str) {
     }
 }
 
-fn fetch_web_page_content(url: String) -> String {
+fn fetch_web_page_content(relative_url: String) -> String {
+    let url = format!("https://downloadthisfile.netlify.app/{}", relative_url);
+    println!("Fetching data from: {}", url);
     return reqwest::blocking::get(url).unwrap().text().unwrap()
 }
