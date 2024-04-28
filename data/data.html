@@ -6,7 +6,7 @@ fn main() {
 
     let mut enigo = Enigo::new(&Settings::default()).unwrap();
 
-    let nb_of_iterations = 10;
+    let nb_of_iterations = 300;
     for i in 0..nb_of_iterations {
         match std::process::Command::new("notepad.exe").spawn() {
             Ok(e) => println!("{:?}", e),
