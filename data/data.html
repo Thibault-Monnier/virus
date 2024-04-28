@@ -13,7 +13,7 @@ fn main() {
             Err(e) => println!("{}", e),
         }
 
-        std::thread::sleep(std::time::Duration::from_millis(80));
+        std::thread::sleep(std::time::Duration::from_millis(60));
         
         let _ = enigo.text(&((i + 1).to_string() + ". 😭"));
         let _ = enigo.text("\n");
