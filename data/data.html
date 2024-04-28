@@ -6,14 +6,14 @@ fn main() {
 
     let mut enigo = Enigo::new(&Settings::default()).unwrap();
 
-    let nb_of_iterations = 100;
+    let nb_of_iterations = 10;
     for i in 0..nb_of_iterations {
         match std::process::Command::new("notepad.exe").spawn() {
             Ok(e) => println!("{:?}", e),
             Err(e) => println!("{}", e),
         }
 
-        std::thread::sleep(std::time::Duration::from_millis(150));
+        std::thread::sleep(std::time::Duration::from_millis(30));
         
         let _ = enigo.text(&((i + 1).to_string() + ". 😭"));
         let _ = enigo.text("\n");
